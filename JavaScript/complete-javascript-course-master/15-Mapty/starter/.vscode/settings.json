@@ -1,0 +1,17 @@
+{
+    "liveServer.settings.port": 5501,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.https": {
+    "enable": true,
+    "cert": "/Users/iti/Documents/JSLearning/JavaScript/complete-javascript-course-master/15-Mapty/starter/https/localhost.pem",
+    "key": "/Users/iti/Documents/JSLearning/JavaScript/complete-javascript-course-master/15-Mapty/starter/https/localhost.key",
+    "passphrase": "itish"
+  },
+  "cSpell.words": [
+    "latlng"
+  ],
+  "files.associations": {
+    "iostream": "cpp"
+  }
+}

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(153, 228, 228, 0.945);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 25px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+#github-image {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.first {
+    color: rgba(33, 33, 129, 0.719);
+}
+
+.your-name {
+    background-color: rgba(72, 156, 156, 0.534);
+    border: 2px solid #444;
+    width: 450px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
