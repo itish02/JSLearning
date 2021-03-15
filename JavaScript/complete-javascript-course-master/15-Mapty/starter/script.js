@@ -75,11 +75,11 @@ const cycle1 = new Cycling([39, -12], 27, 95, 523);
 
 ////////////////////////////
 // APP ARCHITECTURE //
-class App {#
-    map;#
-    mapEvent;#
-    workouts = [];#
-    mapZoomLevel = 13;
+class App {
+    #map;
+    #mapEvent;
+    #workouts = [];
+    #mapZoomLevel = 13;
     constructor() {
         // Get user's position
         this._getPosition();
@@ -311,8 +311,8 @@ class App {#
 
 // const app = new App();
 
-if (1) {
-    console.log("hello world")
-} else {
-    console.log("nothing")
-}
+// if (1) {
+//     console.log("hello world")
+// } else {
+//     console.log("nothing")
+// }

@@ -275,3 +275,31 @@ const newList = deleteFromEnd(List, 2);
 // let strA = string.replace(/[^\w]/g, '').toLowerCase();
 // for (str of strA) {
 //     console.log(str);
+
+function partition(array) {
+    // if (array.length === 1) {
+    //     return array;
+    // }
+    let leftArr = [];
+    let rightArr = [];
+    let pivot = array[array.length - 1];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] <= pivot) {
+            leftArr.push(array[i]);
+        } else {
+            rightArr.push(array[i]);
+        }
+    }
+
+    if (leftArr.length > 0 && rightArr.length > 0) {
+        return [...partition(leftArr), pivot, ...partition(rightArr)];
+    } else if (leftArr.length > 0) {
+        return [...partition(leftArr), pivot];
+    } else {
+        return [pivot, ...partition(rightArr)];
+    }
+
+};
+const array = [3, 5, 1, 8, -1, 4];
+
+const quickSort = partition(array);

@@ -1,7 +1,12 @@
+
 {
-    "cSpell.words": [
-        "Promisifying",
-        "neighbour",
-        "neighbours"
-    ]
+    "liveServer.settings.port": 5501,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.https": {
+    "enable": true,
+    "cert": "/Users/iti/Documents/JSLearning/JavaScript/complete-javascript-course-master/16-asynchronous/starter/https1/localhost.pem",
+    "key": "/Users/iti/Documents/JSLearning/JavaScript/complete-javascript-course-master/16-asynchronous/starter/https1/localhost.key",
+    "passphrase": "1234"
+}
 }
