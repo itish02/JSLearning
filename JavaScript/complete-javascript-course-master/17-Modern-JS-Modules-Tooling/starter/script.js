@@ -76,3 +76,19 @@ if (module.hot) {
 }
 
 console.log('you are now using parcel');
+
+// class Person {
+//     greeting = 'Hey'
+//     constructor(name) {
+//         this.name = name;
+//         console.log(`${this.greeting} ${this.name}`);
+//     }
+// };
+
+// const iti = new Person('Itish');
+console.log(cart.find(el => el.quantity >= 2));
+
+import 'core-js/stable/array/find';
+
+// pollyfilling async functions
+import 'regenerator-runtime/runtime';
