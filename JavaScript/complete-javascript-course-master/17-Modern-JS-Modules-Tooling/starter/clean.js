@@ -10,7 +10,7 @@ const budget = Object.freeze([
     { value: -1800, description: 'New Laptop 💻', user: 'jonas' },
 ]);
 
-const checkLimit = (limits, user) => limits ? .[user] ? ? 0;
+const checkLimit = (limits, user) => limits?.[user] ?? 0;
 
 const spendingLimits = Object.freeze({
     jonas: 1000,
